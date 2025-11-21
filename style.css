@@ -1,0 +1,60 @@
+/* External CSS applied to all pages */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: url("/ASSETS/images/techspert\ 3.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #222;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.nav-bar li a {
+    background: #444;
+    color: yellow;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
